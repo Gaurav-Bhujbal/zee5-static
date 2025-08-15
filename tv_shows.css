@@ -88,15 +88,11 @@ body {
 #trending-section h3 {
   color: white;
 }
-#trending-section {
-}
 
 #trending-card-container {
   display: flex;
   gap: 8px;
   overflow-x: hidden;
-}
-#trending-section {
 }
 #trending-card-container img {
   border-radius: 5px;
