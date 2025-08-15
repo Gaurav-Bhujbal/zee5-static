@@ -1,0 +1,340 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "NotoSansRegular", sans-serif;
+}
+body {
+  background-color: #0f0617;
+}
+
+#app-icon {
+  height: 40px;
+}
+#header {
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  background-color: #0f0617;
+  top: 0px;
+  z-index: 1;
+  margin-top: 0px;
+}
+#header-icon-continer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icons {
+  color: white;
+  font-size: 20px;
+}
+#logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+#nav-section {
+  display: none;
+  color: white;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+#hero-section-video-large {
+  display: none;
+  margin-top: 80px;
+}
+
+#nav-section1 {
+  display: flex;
+  color: white;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+#hero-section-video {
+  width: 100%;
+  margin-top: 80px;
+}
+#hero-section {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+}
+#watch-btn {
+  background-color: rgba(0, 0, 0, 0.396);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 2px solid white;
+  height: 36px;
+  width: 80px;
+  font-size: 13px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+#trending-section h3 {
+  color: white;
+}
+#trending-section {
+}
+
+#trending-card-container {
+  display: flex;
+  gap: 8px;
+  overflow-x: hidden;
+}
+#trending-section {
+}
+#trending-card-container img {
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 30%;
+}
+#trending-more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#trending-section {
+  margin: 15px 0px;
+  padding: 10px;
+}
+#zee-tv-new-ep-section {
+  color: white;
+  padding: 10px;
+  padding-top: 0px;
+}
+#zee-tv-new-ep-card-container {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+
+.zee-tv-new-ep-card {
+  width: 45%;
+  flex-shrink: 0;
+}
+.zee-tv-new-ep-card-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.zee-tv-new-ep-card p {
+  font-size: 13px;
+}
+#Explore-In-Language-section {
+  color: white;
+  padding: 10px;
+}
+#Explore-In-Language-card-container {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+}
+.Explore-In-Language-container {
+  width: 30%;
+  text-align: center;
+  margin-left: 15px;
+}
+.Explore-In-Language-img {
+  height: 110px;
+}
+
+#footer {
+  color: hsla(0, 0%, 85%, 0.5);
+  padding: 10px;
+}
+#social-media-icon-conatiner {
+  margin-top: 15px;
+}
+#download-icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+#icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  margin: 40px 0px;
+  color: white;
+}
+#footer-links-container {
+  text-align: center;
+}
+#footer-shows-container {
+  display: none;
+}
+#footer-links-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+#footer-links-container li {
+  white-space: nowrap;
+}
+#end-poster {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px 0px;
+  /* border: 1px solid red; */
+}
+#end-poster img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #nav-section {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+  }
+  #header {
+    height: 70px;
+  }
+  #nav-section1 {
+    display: none;
+  }
+  #app-icon {
+    height: 60px;
+  }
+  #logo-section {
+    align-items: center;
+    justify-content: space-between;
+  }
+  #header-icon-continer {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  #app-icon-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  #hero-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #hero-section-video {
+    display: none;
+  }
+  #hero-section-video-large {
+    display: block;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 70px;
+  }
+  #watch-btn {
+    display: none;
+  }
+  #trending-section {
+    padding: 0px 50px;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  #trending-more {
+    margin-bottom: 20px;
+  }
+  #trending-card-container {
+    /* display: flex; */
+    width: 100%;
+    /* justify-content: space-between; */
+    gap: 10px;
+  }
+  #trending-card-container img {
+    width: 15%;
+  }
+  #zee-tv-new-ep-section h3 {
+    font-size: 20px;
+  }
+  #zee-tv-new-ep-section {
+    padding: 0px 50px;
+    margin-top: 40px;
+  }
+  #zee-tv-new-ep-card-container {
+    overflow-x: hidden;
+    margin-top: 20px;
+  }
+  .zee-tv-new-ep-card {
+    width: 20%;
+  }
+  #Explore-In-Language-section {
+    padding: 0px 50px;
+    margin-top: 30px;
+  }
+  #Explore-In-Language-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #Explore-In-Language-card-container {
+    overflow-x: hidden;
+    gap: 20px;
+  }
+  .Explore-In-Language-container {
+    /* border: 1px solid red; */
+    width: 10%;
+    flex-shrink: 0;
+    margin: 20px 0px;
+  }
+  #end-poster img {
+    width: 85%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  #social-media-icon-conatiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #download-icon img {
+    height: 40px;
+    width: 150px;
+  }
+  #download-icon {
+    width: 50%;
+    justify-content: center;
+    gap: 20px;
+  }
+  #icon-container {
+    width: 50%;
+  }
+  #footer-shows-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px 20px 0px;
+  }
+  #footer-shows-container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

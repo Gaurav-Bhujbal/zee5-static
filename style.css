@@ -1,0 +1,312 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "NotoSansRegular", sans-serif;
+}
+body {
+  background-color: #0f0617;
+}
+#app-icon {
+  height: 40px;
+}
+#header {
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  background-color: #0f0617;
+  top: 0px;
+  z-index: 1;
+  margin-top: 0px;
+}
+#header-icon-continer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icons {
+  color: white;
+  font-size: 20px;
+}
+#logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+#nav-section {
+  display: none;
+  color: white;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+#nav-section1 {
+  display: flex;
+  color: white;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+#footer {
+  color: hsla(0, 0%, 85%, 0.5);
+  padding: 10px;
+}
+#social-media-icon-conatiner {
+  margin-top: 15px;
+}
+#download-icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+#icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  margin: 40px 0px;
+  color: white;
+}
+#footer-links-container {
+  text-align: center;
+}
+#footer-shows-container {
+  display: none;
+}
+#footer-links-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+#footer-links-container li {
+  white-space: nowrap;
+}
+#end-poster {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px 0px;
+  /* border: 1px solid red; */
+}
+#end-poster img {
+  width: 100%;
+  height: 150px;
+}
+#zee-marathi-serial-section {
+  margin-top: 100px;
+  color: white;
+}
+#zee-marathi-serial-section2 {
+  margin-top: 10px;
+  color: white;
+}
+#zee-marathi-serial-section-heading-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+#more-div {
+  display: flex;
+  color: #8230c6;
+  align-items: center;
+  font-weight: bold;
+}
+#zee-marathi-serial-section-card-container {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+  gap: 10px;
+  padding: 10px;
+}
+.zee-marathi-serial-section-card-img {
+  width: 30%;
+  border-radius: 10px;
+}
+#language-section {
+  padding: 0px 10px;
+  color: white;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+#language-section-card-container {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+  overflow-x: hidden;
+}
+.language-img {
+  width: 40%;
+  border-radius: 10px;
+}
+#hero-section {
+  width: 100%;
+  margin: 25px 0px;
+  padding: 0px 10px;
+}
+#hero-section-img {
+  width: 100%;
+}
+#new-ep-section {
+  padding: 0px 10px;
+  color: white;
+  font-size: 13px;
+  width: 100%;
+  margin: 15px 0px;
+  font-size: 18px;
+}
+.new-ep-title {
+  font-size: 14px;
+}
+#new-ep-section-card-container {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0px;
+  overflow-x: hidden;
+}
+.new-ep-section-card {
+  width: 45%;
+  flex-shrink: 0;
+  /* border: 1px solid red; */
+}
+.new-ep-section-card img {
+  width: 100%;
+  margin-bottom: 6px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  #nav-section {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+  }
+  #header {
+    height: 70px;
+  }
+  #nav-section1 {
+    display: none;
+  }
+  #app-icon {
+    height: 60px;
+  }
+  #logo-section {
+    align-items: center;
+    justify-content: space-between;
+  }
+  #header-icon-continer {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  #app-icon-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  #end-poster img {
+    width: 85%;
+    height: 300px;
+  }
+  #social-media-icon-conatiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #download-icon img {
+    height: 40px;
+    width: 150px;
+  }
+  #download-icon {
+    width: 50%;
+    justify-content: center;
+    gap: 20px;
+  }
+  #icon-container {
+    width: 50%;
+  }
+  #footer-shows-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px 20px 0px;
+  }
+  #footer-shows-container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #zee-marathi-serial-section-card-container {
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+    gap: 10px;
+    padding: 0px 50px;
+    justify-content: space-between;
+  }
+  #zee-marathi-serial-section-heading-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .zee-marathi-serial-section-card-img {
+    width: 16%;
+  }
+  #language-section-card-container {
+    margin-top: 15px;
+    justify-content: space-between;
+  }
+  #language-section {
+    padding: 0px 50px;
+    margin-top: 40px;
+    font-size: 22px;
+  }
+  .language-img {
+    width: 19%;
+  }
+  #hero-section-img {
+    width: 80%;
+    border-radius: 10px;
+  }
+  #hero-section {
+    display: flex;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #new-ep-section {
+    padding: 0px 50px;
+    margin: 30px 0px;
+    font-size: 23px;
+  }
+  #new-ep-section-card-container {
+    overflow-x: hidden;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0xp;
+  }
+  .new-ep-section-card {
+    width: 20%;
+  }
+}
